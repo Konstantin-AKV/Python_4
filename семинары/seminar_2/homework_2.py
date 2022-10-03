@@ -61,3 +61,18 @@ list = [input("Введите значения в список: ") for i in rang
 print(f'Весь список: {list}')
 random.shuffle(list)
 print(list) """
+
+# Задача №6
+
+def InputNumbers(inputText):
+    is_OK = False
+    while not is_OK:
+        try:
+            number = int(input(f"{inputText}"))
+            is_OK = True
+        except ValueError:
+            print("Число должно быть integer ")
+    return number
+
+k = InputNumbers("Введите число: ")
+print(sum((1 + 1 / i) ** i for i in range(1, k + 1)))
