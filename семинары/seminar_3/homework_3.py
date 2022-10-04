@@ -69,7 +69,7 @@ print(bin(n))
 
  # Задача № 5
 
-def InputNumbers(inputText):
+""" def InputNumbers(inputText):
     is_OK = False
     while not is_OK:
         try:
@@ -85,4 +85,4 @@ print(fib1, fib2, end=' ')
  
 for i in range(2, n):
     fib1, fib2 = fib2, fib1 + fib2
-    print(fib2, end= ' ')
+    print(fib2, end= ' ') """
